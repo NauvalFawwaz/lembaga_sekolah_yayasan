@@ -1,0 +1,112 @@
+/* ====== Warna Dasar ====== */
+:root {
+  --biru: #1E3A8A;
+  --kuning: #FACC15;
+  --putih: #FFFFFF;
+  --teks: #1E293B;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--teks);
+  background-color: var(--putih);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: var(--biru);
+  color: var(--putih);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(to right, #1E3A8A, #2563EB);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: var(--kuning);
+  color: #1E3A8A;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #FFD43B;
+}
+
+/* ===== VISI & MISI ===== */
+.visi-misi {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.visi-misi .grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.visi, .misi {
+  flex: 1 1 300px;
+  background: #F8FAFC;
+  border-left: 5px solid var(--biru);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* ===== PROFIL ===== */
+.profil {
+  padding: 60px 20px;
+  text-align: center;
+  background: #EFF6FF;
+}
+
+/* ===== STATISTIK ===== */
+.statistik {
+  background-color: var(--biru);
+  color: white;
+  padding: 50px 20px;
+}
+
+.statistik .grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.statistik div {
+  text-align: center;
+}
+
+.statistik h3 {
+  font-size: 32px;
+  color: var(--kuning);
+}
